@@ -1,23 +1,23 @@
-package ooad.homework.zookeeper;
+package ooad.homework.zooanimals;
 
 import ooad.homework.zookeeper.Cat_interface;
-import ooad.*;
+import ooad.homework.animal.*;
 
 /**
  * Hello world!
  *
  */
-public class Tiger extends Animal implements Cat_interface
+public class Cat extends Animal implements Cat_interface
 {
     String name;
-    public Tiger(String s){
+    public Cat(String s){
         name = s;
+    }
+    public String getType() {
+    	return type;
     }
     public String getName(){
         return name;
-    }
-    public String getType(){
-        return "Feline";
     }
     public void sleep(){
         System.out.println(name+" is sleeping");

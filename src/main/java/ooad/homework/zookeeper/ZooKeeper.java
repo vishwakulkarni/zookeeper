@@ -1,7 +1,7 @@
 package ooad.homework.zookeeper;
 
-import ooad.homework.zookeeper.Cat;
-import ooad.homework.zookeeper.Tiger;
+import ooad.homework.zooanimals.Cat;
+import ooad.homework.zooanimals.Tiger;
 
 /**
  * Hello world!
@@ -23,6 +23,14 @@ public class ZooKeeper
         }
         for(int i=0;i<tigers.length;i++){
             tigers[i].wakeup();
+        }
+    }
+    public void getTypes() {
+    	for(int i=0;i<cats.length;i++){
+            System.out.println(cats[i].getType());
+        }
+        for(int i=0;i<tigers.length;i++){
+            System.out.println(tigers[i].getType());
         }
     }
 }
