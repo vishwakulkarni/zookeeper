@@ -20,19 +20,19 @@ public class Tiger extends Animal implements Cat_interface
         return name;
     }
     public void sleep(){
-        System.out.println(name+" is sleeping");
+    	System.out.println("Name:"+ name + " Type:" + getType() + " is sleeping now");
     }
     public void wakeup(){
-        System.out.println(name+" is waking up");
+        System.out.println("Name:"+ name + " Type:" + getType() + " is waking up");
     }
     public void eat(){
-        System.out.println(name+" is eating now");
+    	System.out.println("Name:"+ name + " Type:" + getType() + " is eating now");
     }
     public void roam(){
-        System.out.println(name+" is roaming arround");;
+    	System.out.println("Name:"+ name + " Type:" + getType() + " is roaming around");
     }
     public void makenoise(){
-        System.out.println(name+" makes noise as meo");;
+    	System.out.println("Name:"+ name + " Type:" + getType() + " Roar Roar");
     }
 
 }

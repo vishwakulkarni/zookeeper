@@ -52,4 +52,60 @@ public class ZooKeeper
             System.out.println(wolves[i].getType());
         }
     }
+    public void feedAnimals() {
+    	for(int i=0;i<cats.length;i++){
+            cats[i].eat();
+        }
+        for(int i=0;i<tigers.length;i++){
+            tigers[i].eat();
+        }
+        for(int i=0;i<dogs.length;i++){
+            dogs[i].eat();
+        }
+        for(int i=0;i<wolves.length;i++){
+            wolves[i].eat();
+        }
+    }
+    public void callAnimals() {
+    	for(int i=0;i<cats.length;i++){
+            cats[i].makenoise();
+        }
+        for(int i=0;i<tigers.length;i++){
+            tigers[i].makenoise();
+        }
+        for(int i=0;i<dogs.length;i++){
+            dogs[i].makenoise();
+        }
+        for(int i=0;i<wolves.length;i++){
+            wolves[i].makenoise();
+        }
+    }
+    public void exerciseAnimals() {
+    	for(int i=0;i<cats.length;i++){
+            cats[i].roam();
+        }
+        for(int i=0;i<tigers.length;i++){
+            tigers[i].roam();
+        }
+        for(int i=0;i<dogs.length;i++){
+            dogs[i].roam();
+        }
+        for(int i=0;i<wolves.length;i++){
+            wolves[i].roam();
+        }
+    }
+    public void sleepAnimals() {
+    	for(int i=0;i<cats.length;i++){
+            cats[i].sleep();
+        }
+        for(int i=0;i<tigers.length;i++){
+            tigers[i].sleep();
+        }
+        for(int i=0;i<dogs.length;i++){
+            dogs[i].sleep();
+        }
+        for(int i=0;i<wolves.length;i++){
+            wolves[i].sleep();
+        }
+    }
 }
