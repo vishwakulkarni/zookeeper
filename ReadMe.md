@@ -8,4 +8,4 @@ git clone https://github.com/vishwakulkarni/zookeeper.git
 cd zookeeper
 mvn clean install
 
-java -cp target/zookeeper-1.0-SNAPSHOT.jar ooad.homework.zookeeper.Main 
+java -cp target/zookeeper-1.0-SNAPSHOT.jar ooad.homework1.mangezoo.ManageZoo 
