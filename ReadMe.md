@@ -25,6 +25,6 @@ $ cd zookeeper/Zoo/
 
 $ javac ooad/homework1/mangezoo/ManageZoo.java
 
-$ java ManageZoo
+$ java ooad/homework1/mangezoo/ManageZoo
 
 Output file dayatthezoo.out has been added. Please verify. Thank you!
