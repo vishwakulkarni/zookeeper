@@ -27,4 +27,4 @@ mvn clean install
 java -cp target/zookeeper-1.0-SNAPSHOT.jar ooad.homework1.mangezoo.ManageZoo 
 ```
 
-Output.txt is been added please verify.
+Output file dayatthezoo.out has been added. Please verify. Thank you!
