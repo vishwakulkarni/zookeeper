@@ -1,30 +1,30 @@
+## Project title:
 
-Teammates are:
-
-1. Vishwanath Kulkarni
-
-2. Ling Liu
-
-3. Sitesh Ranjan
-
-#steps to setup
-------------
+OOAD Project 1: Zoo program 
 
 
+## Team members:
 
-```
-#install java8 before procedding
-install java8
-#install maven before procedding
-install maven
-#clone our repo
-git clone https://github.com/vishwakulkarni/zookeeper.git
-#navigate to zookeeper
-cd zookeeper
-#clean install our project
-mvn clean install
-#run our code with below command
-java -cp target/zookeeper-1.0-SNAPSHOT.jar ooad.homework1.mangezoo.ManageZoo 
-```
+Vishwanath Kulkarni
+
+Ling Liu
+
+Sitesh Ranjan
+
+## How to run the code
+
+#### Download the repository:
+
+$ git clone https://github.com/vishwakulkarni/zookeeper
+
+#### Go to the directory:
+
+$ cd zookeeper/Zoo/
+
+#### After you are in the directory zookeeper/Zoo/,
+
+$ javac ooad/homework1/managezoo/ManageZoo.java
+
+$ java ManageZoo
 
 Output file dayatthezoo.out has been added. Please verify. Thank you!
