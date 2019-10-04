@@ -23,7 +23,7 @@ $ cd zookeeper/Zoo/
 
 #### After you are in the directory zookeeper/Zoo/,
 
-$ javac ooad/homework1/managezoo/ManageZoo.java
+$ javac ooad/homework1/mangezoo/ManageZoo.java
 
 $ java ManageZoo
 
